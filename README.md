@@ -14,7 +14,7 @@
 &nbsp;
 ![](https://img.shields.io/badge/ALIGNMENT-chaotic_good-58A6B8?style=flat-square&labelColor=0d0d0d)
 &nbsp;
-![](https://komarev.com/ghpvc/?username=yourusername&style=flat-square&color=58A6B8&labelColor=0d0d0d&label=SOULS+VISITED)
+![](https://komarev.com/ghpvc/?username=Princess0407&style=flat-square&color=58A6B8&labelColor=0d0d0d&label=SOULS+VISITED)
 
 </td>
 </tr>
@@ -42,17 +42,16 @@
 
  ```
   ╔══════════════════════════════════════╗
-  ║  ✧  Designation  :  [Your Name]     ║
-  ║  ✧  Domain       :  [Your City]     ║
-  ║  ✧  Covenant     :  Full-Stack Dev  ║
-  ║  ✧  Grimoire     :  Open to collab  ║
-  ║  ✧  Conjuring    :  [What you build]║
-  ║  ✧  Hex Code     :  #39FF14         ║
+  ║  ✧  Designation  :  Priyanka Tiwari  ║
+  ║  ✧  Empire       :  Bangalore        ║
+  ║  ✧  Covenant     :  Full-Stack Dev   ║
+  ║  ✧  Grimoire     :  Open to collab   ║ 
+  ║  ✧  Hex Code     :  #39FF14          ║
   ╚══════════════════════════════════════╝
 ```
   
 
-  Her Highness dwells in the liminal space between **design and engineering** — summoning interfaces from the void, binding logic with intention, and leaving every repository more bewitched than she found it.
+  Her Highness dwells in the liminal space between **design and engineering**, summoning interfaces from the void, binding logic with intention, and leaving every repository more bewitched than she found it.
 
 We do not write code. We **inscribe spells.**
 
