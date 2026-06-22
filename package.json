@@ -1,0 +1,10 @@
+{
+  "name": "commit-coven",
+  "version": "1.0.0",
+  "description": "The Commit Coven — a dark grimoire contribution visualizer",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate-coven.js",
+    "demo": "node scripts/generate-coven.js --demo"
+  }
+}
