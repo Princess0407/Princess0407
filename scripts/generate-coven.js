@@ -19,12 +19,9 @@ function prng(seed) {
   return () => { s = (s * 1103515245 + 12345) & 0x7fffffff; return s / 0x7fffffff; };
 }
 
-function fetchContributions(token, username) {
+function graphqlRequest(token, query, variables) {
   return new Promise((resolve, reject) => {
-    const body = JSON.stringify({
-      query: `query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{contributionCount date}}}}}}`,
-      variables: { u: username },
-    });
+    const body = JSON.stringify({ query, variables });
     const opts = {
       hostname: 'api.github.com', path: '/graphql', method: 'POST',
       headers: {
@@ -46,11 +43,53 @@ function fetchContributions(token, username) {
   });
 }
 
-function processData(raw) {
-  const cal = raw.user.contributionsCollection.contributionCalendar;
+async function fetchContributions(token, username) {
+  const now = new Date();
+  const oneYearAgo = new Date(now);
+  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+
+  // Query 1: get createdAt + last year's calendar (for graph + streak data)
+  const data = await graphqlRequest(token,
+    `query($u:String!,$from:DateTime!,$to:DateTime!){user(login:$u){
+      createdAt
+      contributionsCollection(from:$from,to:$to){
+        contributionCalendar{totalContributions weeks{contributionDays{contributionCount date}}}
+      }
+    }}`,
+    { u: username, from: oneYearAgo.toISOString(), to: now.toISOString() }
+  );
+
+  const createdAt = new Date(data.user.createdAt);
+  let allTimeTotal = data.user.contributionsCollection.contributionCalendar.totalContributions;
+  console.log(`  ↳ Last year: ${allTimeTotal} contributions`);
+
+  // Query year-by-year backwards from 1 year ago to account creation
+  let curEnd = new Date(oneYearAgo);
+  while (curEnd > createdAt) {
+    const curStart = new Date(curEnd);
+    curStart.setFullYear(curStart.getFullYear() - 1);
+    if (curStart < createdAt) curStart.setTime(createdAt.getTime());
+
+    const yearData = await graphqlRequest(token,
+      `query($u:String!,$from:DateTime!,$to:DateTime!){user(login:$u){
+        contributionsCollection(from:$from,to:$to){contributionCalendar{totalContributions}}
+      }}`,
+      { u: username, from: curStart.toISOString(), to: curEnd.toISOString() }
+    );
+    const yearTotal = yearData.user.contributionsCollection.contributionCalendar.totalContributions;
+    console.log(`  ↳ ${curStart.getFullYear()}-${curEnd.getFullYear()}: ${yearTotal} contributions`);
+    allTimeTotal += yearTotal;
+    curEnd = new Date(curStart);
+  }
+
+  return { userData: data, allTimeTotal };
+}
+
+function processData({ userData, allTimeTotal }) {
+  const cal = userData.user.contributionsCollection.contributionCalendar;
   const all = cal.weeks.flatMap(w => w.contributionDays).sort((a, b) => a.date.localeCompare(b.date));
   const last30 = all.slice(-30);
-  const total = cal.totalContributions;
+  const total = allTimeTotal;
   let hiCount = 0, hiDate = '';
   for (const d of last30) { if (d.contributionCount > hiCount) { hiCount = d.contributionCount; hiDate = d.date; } }
   let cur = 0;
