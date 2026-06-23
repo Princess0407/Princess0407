@@ -1,11 +1,6 @@
 name: "✧ The Commit Coven ✧"
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/commit-coven.yml'
   schedule:
     - cron: "30 0 * * *"
   workflow_dispatch:
@@ -19,21 +14,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🕯️ Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 🔮 Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: 📜 Generate Commit Coven SVG
+      - name: Generate Commit Coven SVG
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: node scripts/generate-coven.js
 
-      - name: 🕸️ Commit & Push
+      - name: Commit & Push
         run: |
           git config user.name "commit-coven[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
