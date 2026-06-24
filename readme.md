@@ -123,7 +123,6 @@
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Princess0407&theme=dark&hide_border=true&background=0d0d0d&ring=58A6B8&fire=58A6B8&currStreakLabel=58A6B8&sideLabels=888888&dates=555555&stroke=1a1a1a&border=0d0d0d" alt="The Eternal Flame" />
 
 </div>
 <div align="center">
@@ -132,7 +131,7 @@
 
 <br/>
 
-<!-- ✧ THE COMMIT COVEN ✧ — Custom self-hosted SVG, regenerated daily by .github/workflows/commit-coven.yml -->
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Metal+Mania&size=28&duration=1&pause=99999&color=58A6B8&center=true&vCenter=true&width=600&height=55&lines=%E2%9C%A7+The+Commit+Coven+%E2%9C%A7" alt="Commit Coven"/>
@@ -142,7 +141,7 @@
 <img src="./assets/commit-coven.svg" width="95%" alt="The Commit Coven"/>
 
 </div>
-<!-- ✧ THE COMMIT COVEN ✧ — END -->
+
 
 <br/>
 
