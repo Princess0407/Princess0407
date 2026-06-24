@@ -222,7 +222,7 @@ function generateSVG(data) {
   svg += `<line x1="${SVG_W / 2 - 140}" y1="62" x2="${SVG_W / 2 + 140}" y2="62" stroke="${C.accent}" stroke-width="0.5" opacity="0.25"/>\n`;
 
   const cards = [
-    { label: 'Highest Harvest', value: `${hiCount} Offerings`, icon: '🌕' },
+    { label: 'Longest Streak', value: `${longest} Nights`, icon: '🌕' },
     { label: 'Current Ritual', value: `${cur} Nights`, icon: '🕯️' },
     { label: 'Total Offerings', value: `${total}`, icon: '📜' },
   ];
