@@ -41,7 +41,7 @@
 
  ```
   ╔══════════════════════════════════════╗
-  ║  ✧  Designation  :  Priyanka Tiwari  ║
+  ║  ✧  Title  :        Priyanka Tiwari  ║
   ║  ✧  Empire       :  Bangalore        ║                        
   ║  ✧  Covenant     :  Systems Engg     ║
   ║  ✧  Grimoire     :  Cooking          ║ 
