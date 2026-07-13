@@ -43,7 +43,7 @@
   ╔══════════════════════════════════════╗
   ║  ✧  Title  :        Priyanka Tiwari  ║
   ║  ✧  Empire       :  Bangalore        ║                        
-  ║  ✧  Covenant     :  Systems Engg     ║
+  ║  ✧  Covenant     :  Software Engg    ║
   ║  ✧  Grimoire     :  Cooking          ║ 
   ║  ✧  Hex Code     :  #39FF14          ║
   ╚══════════════════════════════════════╝
