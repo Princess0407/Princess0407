@@ -96,31 +96,6 @@
 [![Redis](https://img.shields.io/badge/Redis-0d0d0d?style=for-the-badge&logo=redis&logoColor=58A6B8)](https://redis.io/)
 <br/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=58A6B8&height=1&section=header" width="85%"/>
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Metal+Mania&size=28&duration=1&pause=99999&color=58A6B8&center=true&vCenter=true&width=600&height=55&lines=%E2%9C%A7+The+Dark+Ledger+%E2%9C%A7" alt="Dark Ledger"/>
-
-<br/>
-
-<table border="0" cellspacing="0" cellpadding="6">
-<tr>
-<td align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Princess0407e&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=58A6B8&icon_color=58A6B8&text_color=888888&ring_color=58A6B8&rank_icon=github&include_all_commits=true&count_private=true" height="160" alt="Soul Stats"/>
-
-</td>
-<td align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Princess0407&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=58A6B8&text_color=888888&langs_count=8" height="160" alt="Tongue Dominance"/>
-
-</td>
-</tr>
-</table>
-
 <br/>
 
 
