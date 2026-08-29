@@ -99,7 +99,7 @@ Right now I'm experimenting with *AI infra and ML systems*....quantization sensi
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats-myhkj1ex3.vercel.app?user=Princess0407&theme=transparent&hide_border=true&stroke=502D55&ring=935073&fire=C9B8E8&currStreakLabel=C9B8E8&sideLabels=935073&dates=888888&currStreakNum=F8F4E9&sideNums=F8F4E9&background=0d1117" width="600" alt="GitHub Streak"/>
+![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=Princess0407&hide_border=true&background=0d1117&ring=935073&fire=C9B8E8&currStreakLabel=C9B8E8&sideLabels=935073&dates=888888&currStreakNum=F8F4E9&sideNums=F8F4E9&stroke=502D55)
 
 <br><br>
 
@@ -111,9 +111,6 @@ Right now I'm experimenting with *AI infra and ML systems*....quantization sensi
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Princess0407&show_icons=true&hide_border=true&bg_color=0d1117&title_color=C9B8E8&text_color=F8F4E9&icon_color=935073&include_all_commits=true&count_private=true&ring_color=935073" height="160" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Princess0407&layout=compact&hide_border=true&bg_color=0d1117&title_color=C9B8E8&text_color=F8F4E9&langs_count=6" height="160" alt="Top Languages"/>
 
 </div>
 
