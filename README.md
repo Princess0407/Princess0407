@@ -50,13 +50,13 @@ Right now I'm experimenting with *AI infra and ML systems*....quantization sensi
 
 <br>
 
-[![GXU-1](https://img.shields.io/badge/GXU--1-Custom%20GPU%20coprocessor%20on%20ESP32--S3%20%E2%80%94%20BOM%20under%20%E2%82%B9700-502D55?style=for-the-badge&logo=github&logoColor=F8F4E9)](https://github.com/Princess0407/GXU-1)
+[![GXU-1](https://img.shields.io/badge/GXU--1-Custom%20GPU%20coprocessor%20-502D55?style=for-the-badge&logo=github&logoColor=F8F4E9)](https://github.com/Princess0407/GXU-1)
 
 `Binary ISA` · `Software rasterizer` · `R-2R DAC` · `VGA output` · `Dual-core FreeRTOS`
 
 <br>
 
-[![Oral_Sense](https://img.shields.io/badge/PRINCESS--0407-Handheld%20oral%20cancer%20screening%20device-935073?style=for-the-badge&logo=github&logoColor=F8F4E9)](https://github.com/Princess0407/Oral_Sense)
+[![Oral_Sense](https://img.shields.io/badge/Oral_Sense-Handheld%20oral%20cancer%20screening%20device-935073?style=for-the-badge&logo=github&logoColor=F8F4E9)](https://github.com/Princess0407/Oral_Sense)
 
 `Edge Deployment` · `INT8 inference on ESP32 S3 PIE` · `CNN`
 
