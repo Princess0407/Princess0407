@@ -75,7 +75,6 @@ Right now I'm experimenting with *AI infra and ML systems*....quantization sensi
 ![JavaScript](https://img.shields.io/badge/JavaScript-502D55?style=for-the-badge&logo=javascript&logoColor=F6DBC0)
 ![React](https://img.shields.io/badge/React-502D55?style=for-the-badge&logo=react&logoColor=F6DBC0)
 ![Next.js](https://img.shields.io/badge/Next.js-502D55?style=for-the-badge&logo=nextdotjs&logoColor=F6DBC0)
-![Rust](https://img.shields.io/badge/Rust-502D55?style=for-the-badge&logo=rust&logoColor=F6DBC0)
 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-935073?style=for-the-badge&logo=tailwindcss&logoColor=F8F4E9)
 ![Linux](https://img.shields.io/badge/Linux-935073?style=for-the-badge&logo=linux&logoColor=F8F4E9)
