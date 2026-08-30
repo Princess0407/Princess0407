@@ -94,7 +94,7 @@ Right now I'm experimenting with *AI infra and ML systems*....quantization sensi
 
 ---
 
-### `{ contribution_graph }`
+### `{ contributions }`
 
 
 <div align="center">
