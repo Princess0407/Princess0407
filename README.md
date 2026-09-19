@@ -101,16 +101,3 @@ Right now I'm experimenting with *AI infra and ML systems*....quantization sensi
 ![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=Princess0407&hide_border=true&background=0d1117&ring=935073&fire=C9B8E8&currStreakLabel=C9B8E8&sideLabels=935073&dates=888888&currStreakNum=F8F4E9&sideNums=F8F4E9&stroke=502D55)
 
 <br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./assets/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="./assets/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
-
-<br><br>
-
-
-</div>
-
-<br>
