@@ -22,7 +22,7 @@
 
 **Heyy, I'm Priyanka Tiwari!!**
 
-I roam the internet building whatever topic catches my eye or piques my interest. Well, I'm not that random as, this first sentence is making me sound like. Its like i work across a spectrum lying between hardware and software...yeah, that sounds about right :)
+I roam the internet building whatever topic piques my interest. Well, I'm not that random as, this first sentence is making me sound like. Its like i work across a spectrum lying between hardware and software...yeah, that sounds about right :)
 
 Right now I'm experimenting with *AI infra and ML systems*....quantization sensitivity, edge deployment, inference efficiency & ML observability....if any of these topics interest you then I would love to hear about it or your projects!!
 
